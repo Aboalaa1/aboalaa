@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(211, 176, 176);
+  font-size: 27px;
+}
+.container{
+  width: 100%;
+  border:2px solid brown;
+  margin: auto;
+  align-items: center;
+  justify-content:center;
+  display: grid;
+  grid-gap:15px;
+  grid-template-columns: 32vm 32vm;
+  grid-template-rows: 45vh 45vh;
+  grid-template-areas: "top top"
+  "bottomLeft bottomRight";
+}
+.box{
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+  display: flex;
+}
